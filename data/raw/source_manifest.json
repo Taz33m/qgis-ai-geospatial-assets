@@ -1,0 +1,31 @@
+{
+  "project": "AI-Ready Lower Manhattan Geospatial Asset Production Pipeline",
+  "created": "2026-05-15",
+  "working_crs": "EPSG:2263",
+  "export_crs": "EPSG:4326",
+  "bbox": {
+    "west": -74.0195,
+    "south": 40.707,
+    "east": -74.005,
+    "north": 40.7165
+  },
+  "sources": [
+    {
+      "name": "NYS Building Footprints FeatureServer",
+      "url": "https://gisservices.its.ny.gov/arcgis/rest/services/BuildingFootprints/FeatureServer",
+      "features_downloaded": 558,
+      "notes": "NYC records in this service cite NYC OpenData as the primary source."
+    },
+    {
+      "name": "OpenStreetMap via Overpass API",
+      "url": "https://overpass-api.de/api/interpreter",
+      "elements_downloaded": 7244,
+      "license": "Open Database License (ODbL)"
+    },
+    {
+      "name": "Manual QGIS-style interpretation",
+      "url": "Documented in docs/labeling_guide.md",
+      "notes": "Used only for generalized water/land-use review assets and explicitly flagged for review."
+    }
+  ]
+}
