@@ -45,11 +45,11 @@ QGIS version used: **3.44.10-Solothurn**
 
 ## QGIS Desktop Evidence
 
-The project is designed to be opened and reviewed in QGIS, not just viewed as exported images.
+The project is designed to be opened and reviewed in QGIS, not just viewed as exported images. These screenshots were captured from the actual QGIS desktop application on macOS after opening the `.qgz` project.
 
-![QGIS desktop layer panel, styled map canvas, CRS, and QA metadata](screenshots/07_qgis_desktop_layer_panel.png)
+![QGIS desktop layer panel, styled map canvas, and EPSG:2263 status bar](screenshots/07_qgis_desktop_layer_panel.png)
 
-![QGIS attribute table and validation output](screenshots/08_qgis_attribute_table_validation.png)
+![QGIS desktop attribute table window](screenshots/08_qgis_attribute_table_validation.png)
 
 ## Asset Layers
 
